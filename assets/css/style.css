@@ -1,0 +1,48 @@
+body {
+	background-color: lightgoldenrodyellow;
+	color: #04051f;
+}
+
+#giftastic {
+	font-style: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+	margin-left: 35px;
+}
+
+
+#gif-input-box {
+	float: right;
+	padding-right: 15%;
+}
+
+
+#add-gif {
+    float: right;
+	padding: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+
+/* .gifimages {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+} */
+
+h2 {
+	margin-top: 5px;
+    margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #a8a3ff;
+}
+
+
+
+
