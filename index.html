@@ -9,27 +9,34 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 
+
     <title>GIFTASTIC</title>
 
 </head>
-<body>
-        <body>
-                <div class="container">
-                  <h1 id="giftastic">GIFTASTIC</h1>
-                  <div id="gifbuttons"></div>
-                  <div id="gif-input-box">
-                    <form id= "gif-form">
-                      <label for="gif-input">Add A Gif</label>
-                      <input type="text" id="gif-input"><br>
-                      <input id="add-gif" type="submit" value="Submit">
-                    </form>
-                  </div>
-                  <div id="gifview"></div>
-                </div>
 
-</div>
-</body>
 </html>
 
+<div class="container">
+    <div class="jumbotron">
+        <h1>GIFTASTIC</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" id="display-buttons"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <form id="form">
+                <label for="user-input">Enter anything to find your GIF!</label><br>
+                <input type="text" id="user-input">
+                <input id="submitPress" type="submit" value="Submit" class="btn btn-default">
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" id="display-images"></div>
+    </div>
 
 
