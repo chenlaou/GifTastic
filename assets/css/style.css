@@ -1,34 +1,24 @@
 body {
-	background-color: lightgoldenrodyellow;
-	color: #04051f;
+	background-color: lightgray;
 }
 
-#giftastic {
-	font-style: bold;
-    font-size: 30px;
+.btn {
+    /* adding spacing between each button*/
+    margin: 3px;
+    border-color: darkgrey;
+}
+.gifDiv{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+}
+.container {
+	padding: 20px;
+}
+.jumbotron {
+    background-color: gray;
+}
+.jumbotron .h1, .jumbotron h1 {
     text-align: center;
 }
-
-.container {
-	margin-left: 35px;
-}
-
-
-#gif-input-box {
-	float: right;
-	padding-right: 15%;
-}
-
-
-#add-gif {
-    float: right;
-	padding: 5px;
-	margin-top: 5px;
-	border-radius: 5px;
-}
-
-
-
-
-
 
